@@ -9,6 +9,6 @@ namespace Movies.API.Data
         {
         }
 
-        public DbSet<Movies.API.Models.Movie> Movie { get; set; }
+        public DbSet<Models.Movie> Movie { get; set; }
     }
 }
